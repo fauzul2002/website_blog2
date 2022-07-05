@@ -14,6 +14,11 @@ use App\Models\post;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/landing', function () {
+    return view ('landing', [
+        "title" => "landing"
+    ]);
+});
 
 Route::get('/home', function () {
     return view ('home', [
