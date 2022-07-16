@@ -34,6 +34,7 @@ Route::get('/about', function () {
         "image"=> "Aceh.jpg"
         
     ]);
+    
 });
 
 
